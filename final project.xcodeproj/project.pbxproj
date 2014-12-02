@@ -7,7 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		079ECBA71A2A2FFC00321532 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 079ECBA61A2A2FFC00321532 /* main.cpp */; };
+		079ECBC71A2A303F00321532 /* Battle.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 079ECBAD1A2A303F00321532 /* Battle.cpp */; };
+		079ECBC81A2A303F00321532 /* Class1.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 079ECBAF1A2A303F00321532 /* Class1.cpp */; };
+		079ECBC91A2A303F00321532 /* Class2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 079ECBB11A2A303F00321532 /* Class2.cpp */; };
+		079ECBCA1A2A303F00321532 /* Class3.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 079ECBB31A2A303F00321532 /* Class3.cpp */; };
+		079ECBCB1A2A303F00321532 /* Class4.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 079ECBB51A2A303F00321532 /* Class4.cpp */; };
+		079ECBCC1A2A303F00321532 /* Class5.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 079ECBB71A2A303F00321532 /* Class5.cpp */; };
+		079ECBCD1A2A303F00321532 /* Creature.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 079ECBB91A2A303F00321532 /* Creature.cpp */; };
+		079ECBCE1A2A303F00321532 /* CreatureType.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 079ECBBB1A2A303F00321532 /* CreatureType.cpp */; };
+		079ECBCF1A2A303F00321532 /* EECSRandom.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 079ECBBD1A2A303F00321532 /* EECSRandom.cpp */; };
+		079ECBD01A2A303F00321532 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 079ECBBF1A2A303F00321532 /* main.cpp */; };
+		079ECBD11A2A303F00321532 /* Party.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 079ECBC01A2A303F00321532 /* Party.cpp */; };
+		079ECBD21A2A303F00321532 /* PrintHelper.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 079ECBC21A2A303F00321532 /* PrintHelper.cpp */; };
+		079ECBD31A2A303F00321532 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 079ECBC41A2A303F00321532 /* README.md */; };
+		079ECBD41A2A303F00321532 /* Trainer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 079ECBC51A2A303F00321532 /* Trainer.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -24,7 +37,32 @@
 
 /* Begin PBXFileReference section */
 		079ECBA31A2A2FFC00321532 /* final project */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "final project"; sourceTree = BUILT_PRODUCTS_DIR; };
-		079ECBA61A2A2FFC00321532 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		079ECBAD1A2A303F00321532 /* Battle.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Battle.cpp; sourceTree = SOURCE_ROOT; };
+		079ECBAE1A2A303F00321532 /* Battle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Battle.h; sourceTree = SOURCE_ROOT; };
+		079ECBAF1A2A303F00321532 /* Class1.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Class1.cpp; sourceTree = SOURCE_ROOT; };
+		079ECBB01A2A303F00321532 /* Class1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Class1.h; sourceTree = SOURCE_ROOT; };
+		079ECBB11A2A303F00321532 /* Class2.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Class2.cpp; sourceTree = SOURCE_ROOT; };
+		079ECBB21A2A303F00321532 /* Class2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Class2.h; sourceTree = SOURCE_ROOT; };
+		079ECBB31A2A303F00321532 /* Class3.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Class3.cpp; sourceTree = SOURCE_ROOT; };
+		079ECBB41A2A303F00321532 /* Class3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Class3.h; sourceTree = SOURCE_ROOT; };
+		079ECBB51A2A303F00321532 /* Class4.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Class4.cpp; sourceTree = SOURCE_ROOT; };
+		079ECBB61A2A303F00321532 /* Class4.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Class4.h; sourceTree = SOURCE_ROOT; };
+		079ECBB71A2A303F00321532 /* Class5.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Class5.cpp; sourceTree = SOURCE_ROOT; };
+		079ECBB81A2A303F00321532 /* Class5.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Class5.h; sourceTree = SOURCE_ROOT; };
+		079ECBB91A2A303F00321532 /* Creature.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Creature.cpp; sourceTree = SOURCE_ROOT; };
+		079ECBBA1A2A303F00321532 /* Creature.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Creature.h; sourceTree = SOURCE_ROOT; };
+		079ECBBB1A2A303F00321532 /* CreatureType.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CreatureType.cpp; sourceTree = SOURCE_ROOT; };
+		079ECBBC1A2A303F00321532 /* CreatureType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CreatureType.h; sourceTree = SOURCE_ROOT; };
+		079ECBBD1A2A303F00321532 /* EECSRandom.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = EECSRandom.cpp; sourceTree = SOURCE_ROOT; };
+		079ECBBE1A2A303F00321532 /* EECSRandom.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EECSRandom.h; sourceTree = SOURCE_ROOT; };
+		079ECBBF1A2A303F00321532 /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = SOURCE_ROOT; };
+		079ECBC01A2A303F00321532 /* Party.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Party.cpp; sourceTree = SOURCE_ROOT; };
+		079ECBC11A2A303F00321532 /* Party.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Party.h; sourceTree = SOURCE_ROOT; };
+		079ECBC21A2A303F00321532 /* PrintHelper.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = PrintHelper.cpp; sourceTree = SOURCE_ROOT; };
+		079ECBC31A2A303F00321532 /* PrintHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrintHelper.h; sourceTree = SOURCE_ROOT; };
+		079ECBC41A2A303F00321532 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = SOURCE_ROOT; };
+		079ECBC51A2A303F00321532 /* Trainer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Trainer.cpp; sourceTree = SOURCE_ROOT; };
+		079ECBC61A2A303F00321532 /* Trainer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Trainer.h; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,7 +95,32 @@
 		079ECBA51A2A2FFC00321532 /* final project */ = {
 			isa = PBXGroup;
 			children = (
-				079ECBA61A2A2FFC00321532 /* main.cpp */,
+				079ECBAD1A2A303F00321532 /* Battle.cpp */,
+				079ECBAE1A2A303F00321532 /* Battle.h */,
+				079ECBAF1A2A303F00321532 /* Class1.cpp */,
+				079ECBB01A2A303F00321532 /* Class1.h */,
+				079ECBB11A2A303F00321532 /* Class2.cpp */,
+				079ECBB21A2A303F00321532 /* Class2.h */,
+				079ECBB31A2A303F00321532 /* Class3.cpp */,
+				079ECBB41A2A303F00321532 /* Class3.h */,
+				079ECBB51A2A303F00321532 /* Class4.cpp */,
+				079ECBB61A2A303F00321532 /* Class4.h */,
+				079ECBB71A2A303F00321532 /* Class5.cpp */,
+				079ECBB81A2A303F00321532 /* Class5.h */,
+				079ECBB91A2A303F00321532 /* Creature.cpp */,
+				079ECBBA1A2A303F00321532 /* Creature.h */,
+				079ECBBB1A2A303F00321532 /* CreatureType.cpp */,
+				079ECBBC1A2A303F00321532 /* CreatureType.h */,
+				079ECBBD1A2A303F00321532 /* EECSRandom.cpp */,
+				079ECBBE1A2A303F00321532 /* EECSRandom.h */,
+				079ECBBF1A2A303F00321532 /* main.cpp */,
+				079ECBC01A2A303F00321532 /* Party.cpp */,
+				079ECBC11A2A303F00321532 /* Party.h */,
+				079ECBC21A2A303F00321532 /* PrintHelper.cpp */,
+				079ECBC31A2A303F00321532 /* PrintHelper.h */,
+				079ECBC41A2A303F00321532 /* README.md */,
+				079ECBC51A2A303F00321532 /* Trainer.cpp */,
+				079ECBC61A2A303F00321532 /* Trainer.h */,
 			);
 			path = "final project";
 			sourceTree = "<group>";
@@ -118,7 +181,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				079ECBA71A2A2FFC00321532 /* main.cpp in Sources */,
+				079ECBCD1A2A303F00321532 /* Creature.cpp in Sources */,
+				079ECBCA1A2A303F00321532 /* Class3.cpp in Sources */,
+				079ECBD11A2A303F00321532 /* Party.cpp in Sources */,
+				079ECBCF1A2A303F00321532 /* EECSRandom.cpp in Sources */,
+				079ECBD31A2A303F00321532 /* README.md in Sources */,
+				079ECBC81A2A303F00321532 /* Class1.cpp in Sources */,
+				079ECBCC1A2A303F00321532 /* Class5.cpp in Sources */,
+				079ECBC71A2A303F00321532 /* Battle.cpp in Sources */,
+				079ECBCB1A2A303F00321532 /* Class4.cpp in Sources */,
+				079ECBCE1A2A303F00321532 /* CreatureType.cpp in Sources */,
+				079ECBD21A2A303F00321532 /* PrintHelper.cpp in Sources */,
+				079ECBD41A2A303F00321532 /* Trainer.cpp in Sources */,
+				079ECBD01A2A303F00321532 /* main.cpp in Sources */,
+				079ECBC91A2A303F00321532 /* Class2.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
