@@ -29,4 +29,3 @@ void creatureAttack(Creature& attacker, Creature& defender, bool isPlayer, strin
  * Effects:  Increases rester's health, prints message
  */
 void creatureRest(Creature& rester, bool isPlayer, stringstream& ss);
-//hdfjk
